@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_linear_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Info_Teclado"
+            android:text="TXTInformacionT0"
+            android:textSize="22sp"
+            android:padding="16dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Info_explandible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_vista_teclado1"
+                android:text="TXTInformacionT1"
+                android:padding="12dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_vista_teclado2"
+                android:text="TXTInformacionT2"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/info_vista_teclado1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_vista_teclado3"
+                android:text="TXTInformacionT3"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/info_vista_teclado2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_vista_teclado4"
+                android:text="TXTInformacionT4"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/info_vista_teclado3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_vista_teclado5"
+                android:text="TXTInformacionT5"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/info_vista_teclado4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_vista_teclado6"
+                android:text="TXTInformacionT6"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/info_vista_teclado5"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

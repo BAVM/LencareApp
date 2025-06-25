@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icoapp_round"
+        android:label="@string/app_name"
+        android:logo="@mipmap/icoapp_round"
+        android:roundIcon="@mipmap/icoapp_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/icoapp_round" />
+
+        <activity
+            android:name=".ui.admin.Cambiar_Pass"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.IdeacentreC.IdeacentreC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.IdeapadC.IdeapadC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.Accesorios.AccesoriosC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.LegionC.LegionC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.MonitoresC.MonitoresC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.TabletsC.TabletsC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.ThinkbookC.ThinkbookC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.ThinkcentreC.ThinkcentreC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.ThinkpadC.ThinkpadC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.ThinksmartC.ThinksmartC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasCliente.YogaC.YogaC"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.YogaA.YogaA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.ThinksmartA.ThinksmartA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.ThinkpadA.ThinkpadA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.ThinkcentreA.ThinkcentreA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.ThinkbookA.ThinkbookA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.TabletsA.TabletsA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.MonitoresA.MonitoresA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.LegionA.LegionA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.IdeapadA.IdeapadA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.IdeacentreA.IdeacentreA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CategoriasAdmin.AccesoriosA.AccesoriosA"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewAccesorios.AccesoriosAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewTablets.TabletsAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewYoga.YogaAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewLegion.LegionAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewMonitores.MonitoresAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewIdeacentre.IdeacentreAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewIdeapad.IdeapadAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewThinksmart.ThinksmartAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewThinkbook.ThinkbookAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewThinkcentre.ThinkcentreAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.VerPnAdmin.ViewThinkpad.ThinkpadAL"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorias.ControladorCD"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cliente.Cambiar_Pass_C"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPass"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivityAdmin"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivityCliente"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InicioSesion"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

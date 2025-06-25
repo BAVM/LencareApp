@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/Widget.AppTheme.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowSplashScreenBackground">@color/primary1</item>
+
+
+    </style>
+</resources>

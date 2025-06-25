@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/BtnFiltrar">
+
+        <item
+            android:id="@+id/BtnArgentina"
+            android:title="Argentina" />
+
+        <item
+            android:id="@+id/BtnChile"
+            android:title="Chile" />
+
+        <item
+            android:id="@+id/BtnColombia"
+            android:title="Colombia" />
+
+        <item
+            android:id="@+id/BtnMexico"
+            android:title="Mexico" />
+
+        <item
+            android:id="@+id/BtnPeru"
+            android:title="Peru" />
+
+
+    </group>
+
+</menu>

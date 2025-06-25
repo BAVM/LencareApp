@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.cliente.detalles_cliente.DetallesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AcercaDeApp"
+            android:layout_gravity="center"
+            android:textSize="28sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="20dp"
+            android:background="@color/color7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:text="@string/InfoDesarrollador"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:text="@string/InfoCorreo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:text="@string/InfoVersion"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_principal1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logow"/>
+
+        <TextView
+            android:id="@+id/VaxweWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InfoWeb"
+            android:textSize="20sp"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lenovo1"/>
+
+        <TextView
+            android:id="@+id/LenovoWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InfoWeb2"
+            android:textSize="20sp"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

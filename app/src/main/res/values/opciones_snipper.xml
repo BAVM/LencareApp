@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ARRAY DE SPINNER ADMIN/USER-->
+    <string-array name="Roll">
+
+        <item></item>
+        <item>Admin</item>
+        <item></item>
+        <item>User</item>
+        <item></item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER SELECCION PAIS-->
+    <string-array name="SeleccionPais">
+
+        <item></item>
+        <item>México</item>
+        <item>Colombia</item>
+        <item>Perú</item>
+        <item>Chile</item>
+        <item>Argentina</item>
+
+    </string-array>
+
+
+    <!--ARRAY DE SPINNER SELECCION SLOC-->
+    <string-array name="SeleccionSloc">
+
+        <item></item>
+        <item>0001</item>
+        <item>WEB</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER HUELLA-->
+    <string-array name="Huella">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER BIOS-->
+    <string-array name="Bios">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER OS-->
+    <string-array name="Os">
+
+        <item></item>
+        <item>N/A</item>
+        <item>Win 10 Pro</item>
+        <item>Win 10 Home</item>
+        <item>Win 10 Iot</item>
+        <item>Win 11 Pro</item>
+        <item>Win 11 Home</item>
+        <item>Android</item>
+        <item>Chrome OS</item>
+        <item>Linux</item>
+
+    </string-array>
+
+
+    <!--ARRAY DE SPINNER CPU-->
+    <string-array name="cpu">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER GPU-->
+    <string-array name="gpu">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER HDD-->
+    <string-array name="hdd">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER SSD-->
+    <string-array name="ssd">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER RAM-->
+    <string-array name="ram">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER PANTALLA-->
+    <string-array name="pantalla">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <!--ARRAY DE SPINNER Teclado-->
+    <string-array name="teclado">
+
+        <item></item>
+        <item>N/A</item>
+        <item>SI</item>
+        <item>NO</item>
+
+    </string-array>
+
+
+
+</resources>

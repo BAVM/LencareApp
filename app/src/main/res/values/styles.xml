@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme.-->
+    <style name="Widget.Theme.LencareApp.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+    <style name="Widget.Theme.LencareApp.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+
+    <!-- AÑADIDO.-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">@color/primary1</item>
+        <item name="colorPrimaryDark">@color/primary2</item>
+        <item name="colorAccent">@color/primary3</item>
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+
+    </style>
+
+    <style name="Widget.AppTheme.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <!-- SPLASHSCREEN-->
+    <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+        <item name="android:statusBarColor">@color/primary1</item>
+        <item name="android:actionBarStyle">@color/primary1</item>
+        <item name="android:windowActionBarOverlay">false</item>
+
+    </style>
+
+
+</resources>

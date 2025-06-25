@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Menú principal"/>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_inicio"
+                    android:icon="@drawable/home_v"
+                    android:title="@string/menu_inicio" />
+                <item
+                    android:id="@+id/nav_mi_cuenta"
+                    android:icon="@drawable/perfil_v"
+                    android:title="@string/menu_mi_cuenta" />
+                <item
+                    android:id="@+id/nav_favoritos"
+                    android:icon="@drawable/ico_favorite_01"
+                    android:title="@string/menu_favoritos" />
+                <item
+                    android:id="@+id/InfoView"
+                    android:title="@string/menu_mas_info"
+                    android:icon="@drawable/info_1"/>
+                <item
+                    android:id="@+id/DetallesApp"
+                    android:title="@string/menu_detalles_app"
+                    android:icon="@drawable/info_v"/>
+
+            </group>
+
+
+</menu>

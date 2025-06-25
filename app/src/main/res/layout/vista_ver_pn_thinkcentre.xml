@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color16"
+        android:gravity="center"
+        android:text="Detalles"
+        android:textColor="@color/color7"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_2"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PN: "
+                            android:textColor="@color/color7"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="12">
+
+                        <TextView
+                            android:id="@+id/txtVerPnTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PN"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:textAllCaps="true"
+                            android:maxLength="12"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Descripción: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerDescripcionTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Descripción"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="País: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerPaisTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pais"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sloc: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerSlocTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sloc"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Cpu: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerCpuTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cpu"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Gpu: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerGpuTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Gpu"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Hdd: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerHddTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hdd"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Ssd: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerSsdTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sdd"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Teclado :"
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtVerTecladoTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Teclado"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/num10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Ram :"
+                            android:textColor="@color/color7"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <TextView
+                            android:id="@+id/txtVerRamTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ram"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="6"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Pantalla: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15">
+
+                        <TextView
+                            android:id="@+id/txtVerPantallaTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pant"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:maxLength="6"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num10"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Huella: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15">
+
+                        <TextView
+                            android:id="@+id/txtVerHuellaTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Huella"
+                            android:maxLength="4"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Bios: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <TextView
+                            android:id="@+id/txtVerBiosTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bios"
+                            android:maxLength="4"
+                            android:padding="5dp"
+                            android:textColor="@color/color7"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Os: "
+                            android:textSize="18sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <TextView
+                            android:id="@+id/txtVerOsTCC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Os"
+                            android:padding="5dp"
+                            android:maxLength="12"
+                            android:textColor="@color/color7"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

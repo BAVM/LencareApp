@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "589939389324",
+    "project_id": "lencareapp",
+    "storage_bucket": "lencareapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589939389324:android:01d75ee22bce9b86869ca9",
+        "android_client_info": {
+          "package_name": "com.vaxwe.lencareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589939389324-bsb0j2oj7o8621q5kiafa80i35pjjkn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaxwe.lencareapp",
+            "certificate_hash": "b5005997a15d5b30b1cabd6604810b5405ee0ffa"
+          }
+        },
+        {
+          "client_id": "589939389324-jck2u0hsmjoc3qnlbrdai9k5h52ui2l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwk3Dd8Vqxr-ytHwljCV7Fqb3AXHJAXoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589939389324-jck2u0hsmjoc3qnlbrdai9k5h52ui2l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

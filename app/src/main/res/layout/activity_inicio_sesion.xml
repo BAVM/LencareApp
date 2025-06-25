@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioSesion">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:layout_marginBottom="14dp"
+                        android:background="@drawable/background_5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="13dp"
+                            android:src="@drawable/usuario"
+                            tools:ignore="ImageContrastCheck" />
+
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/LoginAdminTXT"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="20dp"
+            android:background="@color/color7" />
+
+        <TextView
+            android:text="Inicia sesión para continuar."
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/background_1"
+            android:layout_margin="10dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_margin="10dp"
+                app:startIconDrawable="@drawable/email_v">
+
+                <EditText
+                    android:id="@+id/Email"
+                    android:hint="@string/Email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:layout_margin="10dp"
+                app:startIconDrawable="@drawable/lock_v">
+
+                <EditText
+                    android:id="@+id/Password"
+                    android:hint="@string/Password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/Acceder"
+                android:text="@string/Acceder"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/color11"
+                android:textSize="16dp"
+                android:shadowColor="@color/color10"
+                android:background="@color/primary5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/BtnResetPass"
+                android:text="@string/BtnResetPass"
+                android:layout_marginBottom="80dp"
+                android:layout_gravity="center"
+                android:textColor="@color/color11"
+                android:shadowColor="@color/color2"
+                android:background="@color/color5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</ScrollView>

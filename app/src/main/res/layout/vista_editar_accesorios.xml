@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color16"
+        android:gravity="center"
+        android:text="Editar datos"
+        android:textColor="@color/color7"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_2"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PN: "
+                            android:textColor="@color/color7"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="12">
+
+                        <EditText
+                            android:id="@+id/txtEditarPnAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PN"
+                            android:textColor="@color/color7"
+                            android:textAllCaps="true"
+                            android:maxLength="12"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Descripción: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40">
+
+                        <EditText
+                            android:id="@+id/txtEditarDescripcionAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Descripción"
+                            android:textColor="@color/color7"
+                            android:maxLength="60"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="País: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5">
+
+                        <EditText
+                            android:id="@+id/txtEditarPaisAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="País"
+                            android:textColor="@color/color7"
+                            android:maxLength="15"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sloc: "
+                            android:textColor="@color/color7"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5">
+
+                        <EditText
+                            android:id="@+id/txtEditarSlocAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sloc"
+                            android:textColor="@color/color7"
+                            android:maxLength="6"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Cpu: "
+                            android:textColor="@color/color7"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5">
+
+                        <EditText
+                            android:id="@+id/txtEditarCpuAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cpu"
+                            android:textColor="@color/color7"
+                            android:maxLength="30"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Gpu: "
+                            android:textColor="@color/color7"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5">
+
+                        <EditText
+                            android:id="@+id/txtEditarGpuAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Gpu"
+                            android:textColor="@color/color7"
+                            android:maxLength="20"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Hdd: "
+                            android:textColor="@color/color7"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <EditText
+                            android:id="@+id/txtEditarHddAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hdd"
+                            android:textColor="@color/color7"
+                            android:maxLength="6"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Ssd: "
+                            android:textColor="@color/color7"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <EditText
+                            android:id="@+id/txtEditarSsdAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ssd"
+                            android:textColor="@color/color7"
+                            android:maxLength="6"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Ram: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <EditText
+                            android:id="@+id/txtEditarRamAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ram"
+                            android:textColor="@color/color7"
+                            android:maxLength="6"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Teclado: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5">
+
+                        <EditText
+                            android:id="@+id/txtEditarTecladoAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Teclado"
+                            android:maxLength="8"
+                            android:textColor="@color/color7"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Pantalla: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5">
+
+                        <EditText
+                            android:id="@+id/txtEditarPantallaAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pantalla"
+                            android:maxLength="5"
+                            android:textColor="@color/color7"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/num6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Huella: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15">
+
+                        <EditText
+                            android:id="@+id/txtEditarHuellaAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Huella"
+                            android:maxLength="4"
+                            android:textColor="@color/color7"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Bios: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <EditText
+                            android:id="@+id/txtEditarBiosAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bios"
+                            android:maxLength="4"
+                            android:textColor="@color/color7"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Os: "
+                            android:textSize="16sp"
+                            android:textColor="@color/color7"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+
+                        <EditText
+                            android:id="@+id/txtEditarOsAC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Os"
+                            android:maxLength="12"
+                            android:textColor="@color/color7"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num7">
+
+        <Button
+            android:id="@+id/BtnactualziarAC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Actualizar"
+            android:textAllCaps="false"
+            android:background="@drawable/btn3_btn4"
+            android:gravity="center"
+            android:textColor="@color/color7"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

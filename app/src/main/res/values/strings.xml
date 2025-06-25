@@ -1,0 +1,347 @@
+<resources>
+    <string name="app_name">LencareApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="desarrollador">By Vaxwe</string>
+
+    <!--MENU CLIENTE-->
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_mi_cuenta">Mi cuenta</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_detalles_app">Detalles App</string>
+    <string name="menu_mas_info">Ayuda</string>
+    <string name="Salir_cliente">Cerrar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--MENU ADMINISTRADOR-->
+
+    <string name="menu_inicio_admin">Inicio</string>
+    <string name="menu_mi_cuenta_admin">Mi Cuenta</string>
+    <string name="menu_categorias_admin">Categorías</string>
+    <string name="menu_consultar_pn_admin">Consultar PN</string>
+    <string name="menu_registrar_admin">Registrar Admin/User</string>
+    <string name="menu_listar_admin">Lista de Usuarios</string>
+    <string name="Salir_admin">Cerrar sesión</string>
+
+
+    <!--INICIAR SESION-->
+    <string name="Acceder">Acceder</string>
+
+    <!--VENTANA DE ACCEDER-->
+
+    <!--REGISTRO DE ADMINISTRADORES-->
+
+    <string name="RegistroTXT">Registro de Usuarios</string>
+    <string name="Email">Email:</string>
+    <string name="Password">Contraseña:</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Apellido">Apellido:</string>
+    <string name="TipoUserTXT">Rol:</string>
+    <string name="Roll">Admin/User</string>
+    <string name="Fecha">Fecha de registro</string>
+    <string name="Fecha2">Fecha</string>
+    <string name="Registrar">Registrar</string>
+
+    <!--LOGIN ADMINISTRADORES-->
+
+    <string name="LoginAdminTXT">Bienvenido</string>
+
+    <!--RESETEAR PASSWORD-->
+
+    <string name="EmailResetTXT">Restaurar contraseña</string>
+    <string name="RecuperarEmail">Email registrado:</string>
+    <string name="BtnAccederResetPass">Enviar</string>
+    <string name="BtnResetPass">Recuperar contraseña</string>
+    <string name="TxtNotaPass">Por favor verifique su correo electrónico, en su casilla de entrada o en la casilla spam.</string>
+
+    <!--CATEGORIAS ADMIN-->
+    <string name="ThinkpadA">Thinkpad</string>
+    <string name="ThinkcentreA">Thinkcentre</string>
+    <string name="IdeapadA">Ideapad</string>
+    <string name="IdeacentreA">Ideacentre</string>
+    <string name="MonitoresA">Monitores</string>
+    <string name="ThinkbookA">Thinkbook</string>
+    <string name="LegionA">Legion</string>
+    <string name="YogaA">Yoga</string>
+    <string name="TabletsA">Tablets</string>
+    <string name="AccesoriosA">Accesorios</string>
+    <string name="SmartHubA">ThinkSmart</string>
+
+
+    <!--MENU ADD THINKPAD-->
+    <string name="AgregarTituloCategoriaTXT">Nuevo PN</string>
+    <string name="AgregarPais">Selecciona el País:</string>
+    <string name="AgregarSloc">Selecciona el SLOC:</string>
+    <string name="AgregarPn">Ingresa el PN:</string>
+    <string name="AgregarFamilia">Descripción PN:</string>
+    <string name="AgregarCpu">Tipo de CPU:</string>
+    <string name="AgregarGpu">Tipo de GPU:</string>
+    <string name="AgregarHdd">Tamaño HDD:</string>
+    <string name="AgregarSsd">Tamaño SSD:</string>
+    <string name="AgregarRam">Tamaño M. RAM:</string>
+    <string name="AgregarTeclado">Tipo de teclado:</string>
+    <string name="AgregarHuella">Cuenta con Huella:</string>
+    <string name="AgregarPantalla">Tamaño pantalla:</string>
+    <string name="AgregarBios">Custom BIOS:</string>
+    <string name="AgregarSo">Tipo SO:</string>
+    <string name="GuardarPnA">Guardar</string>
+
+    <!--MENU ADD THINKCENTRE-->
+    <string name="AgregarTituloCategoriaTXTTc">Nuevo PN</string>
+    <string name="AgregarPaisTc">Selecciona el País:</string>
+    <string name="AgregarSlocTc">Selecciona el SLOC:</string>
+    <string name="AgregarPnTc">Ingresa el PN:</string>
+    <string name="AgregarFamiliaTc">Descripción PN:</string>
+    <string name="AgregarCpuTc">Tipo de CPU:</string>
+    <string name="AgregarGpuTc">Tipo de GPU:</string>
+    <string name="AgregarHddTc">Tamaño HDD:</string>
+    <string name="AgregarSsdTc">Tamaño SSD:</string>
+    <string name="AgregarRamTc">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoTc">Tipo de teclado:</string>
+    <string name="AgregarHuellaTc">Cuenta con Huella:</string>
+    <string name="AgregarPantallaTc">Tamaño pantalla:</string>
+    <string name="AgregarBiosTc">Custom BIOS:</string>
+    <string name="AgregarSoTc">Tipo SO:</string>
+    <string name="GuardarPnATc">Guardar</string>
+
+
+    <!--MENU ADD THINKBOOK-->
+    <string name="AgregarPaisTb">Selecciona el País:</string>
+    <string name="AgregarSlocTb">Selecciona el SLOC:</string>
+    <string name="AgregarPnTb">Ingresa el PN:</string>
+    <string name="AgregarFamiliaTb">Descripción PN:</string>
+    <string name="AgregarCpuTb">Tipo de CPU:</string>
+    <string name="AgregarGpuTb">Tipo de GPU:</string>
+    <string name="AgregarHddTb">Tamaño HDD:</string>
+    <string name="AgregarSsdTb">Tamaño SSD:</string>
+    <string name="AgregarRamTb">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoTb">Tipo de teclado:</string>
+    <string name="AgregarHuellaTb">Cuenta con Huella:</string>
+    <string name="AgregarPantallaTb">Tamaño pantalla:</string>
+    <string name="AgregarBiosTb">Custom BIOS:</string>
+    <string name="AgregarSoTb">Tipo SO:</string>
+    <string name="GuardarPnATb">Guardar</string>
+
+
+    <!--MENU ADD IDEAPAD-->
+    <string name="AgregarPaisIp">Selecciona el País:</string>
+    <string name="AgregarSlocIp">Selecciona el SLOC:</string>
+    <string name="AgregarPnIp">Ingresa el PN:</string>
+    <string name="AgregarFamiliaIp">Descripción PN:</string>
+    <string name="AgregarCpuIp">Tipo de CPU:</string>
+    <string name="AgregarGpuIp">Tipo de GPU:</string>
+    <string name="AgregarHddIp">Tamaño HDD:</string>
+    <string name="AgregarSsdIp">Tamaño SSD:</string>
+    <string name="AgregarRamIp">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoIp">Tipo de teclado:</string>
+    <string name="AgregarHuellaIp">Cuenta con Huella:</string>
+    <string name="AgregarPantallaIp">Tamaño pantalla:</string>
+    <string name="AgregarBiosIp">Custom BIOS:</string>
+    <string name="AgregarSoIp">Tipo SO:</string>
+    <string name="GuardarPnAIp">Guardar</string>
+
+    <!--MENU ADD IDEACENTRE-->
+    <string name="AgregarTituloCategoriaTXTIc">Nuevo PN</string>
+    <string name="AgregarPaisIc">Selecciona el País:</string>
+    <string name="AgregarSlocIc">Selecciona el SLOC:</string>
+    <string name="AgregarPnIc">Ingresa el PN:</string>
+    <string name="AgregarFamiliaIc">Descripción PN:</string>
+    <string name="AgregarCpuIc">Tipo de CPU:</string>
+    <string name="AgregarGpuIc">Tipo de GPU:</string>
+    <string name="AgregarHddIc">Tamaño HDD:</string>
+    <string name="AgregarSsdIc">Tamaño SSD:</string>
+    <string name="AgregarRamIc">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoIc">Tipo de teclado:</string>
+    <string name="AgregarHuellaIc">Cuenta con Huella:</string>
+    <string name="AgregarPantallaIc">Tamaño pantalla:</string>
+    <string name="AgregarBiosIc">Custom BIOS:</string>
+    <string name="AgregarSoIc">Tipo SO:</string>
+    <string name="GuardarPnAIc">Guardar</string>
+
+
+    <!--MENU ADD LEGION-->
+    <string name="AgregarTituloCategoriaTXTL">Nuevo PN</string>
+    <string name="AgregarPaisL">Selecciona el País:</string>
+    <string name="AgregarSlocL">Selecciona el SLOC:</string>
+    <string name="AgregarPnL">Ingresa el PN:</string>
+    <string name="AgregarFamiliaL">Descripción PN:</string>
+    <string name="AgregarCpuL">Tipo de CPU:</string>
+    <string name="AgregarGpuL">Tipo de GPU:</string>
+    <string name="AgregarHddL">Tamaño HDD:</string>
+    <string name="AgregarSsdL">Tamaño SSD:</string>
+    <string name="AgregarRamL">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoL">Tipo de teclado:</string>
+    <string name="AgregarHuellaL">Cuenta con Huella:</string>
+    <string name="AgregarPantallaL">Tamaño pantalla:</string>
+    <string name="AgregarBiosL">Custom BIOS:</string>
+    <string name="AgregarSoL">Tipo SO:</string>
+    <string name="GuardarPnAL">Guardar</string>
+
+    <!--MENU ADD YOGA-->
+    <string name="AgregarTituloCategoriaTXTY">Nuevo PN</string>
+    <string name="AgregarPaisY">Selecciona el País:</string>
+    <string name="AgregarSlocY">Selecciona el SLOC:</string>
+    <string name="AgregarPnY">Ingresa el PN:</string>
+    <string name="AgregarFamiliaY">Descripción PN:</string>
+    <string name="AgregarCpuY">Tipo de CPU:</string>
+    <string name="AgregarGpuY">Tipo de GPU:</string>
+    <string name="AgregarHddY">Tamaño HDD:</string>
+    <string name="AgregarSsdY">Tamaño SSD:</string>
+    <string name="AgregarRamY">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoY">Tipo de teclado:</string>
+    <string name="AgregarHuellaY">Cuenta con Huella:</string>
+    <string name="AgregarPantallaY">Tamaño pantalla:</string>
+    <string name="AgregarBiosY">Custom BIOS:</string>
+    <string name="AgregarSoY">Tipo SO:</string>
+    <string name="GuardarPnAY">Guardar</string>
+
+
+    <!--MENU ADD TABLETS-->
+    <string name="AgregarTituloCategoriaTXTT">Nuevo PN</string>
+    <string name="AgregarPaisT">Selecciona el País:</string>
+    <string name="AgregarSlocT">Selecciona el SLOC:</string>
+    <string name="AgregarPnT">Ingresa el PN:</string>
+    <string name="AgregarFamiliaT">Descripción PN:</string>
+    <string name="AgregarCpuT">Tipo de CPU:</string>
+    <string name="AgregarGpuT">Tipo de GPU:</string>
+    <string name="AgregarHddT">Tamaño HDD:</string>
+    <string name="AgregarSsdT">Tamaño SSD:</string>
+    <string name="AgregarRamT">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoT">Tipo de teclado:</string>
+    <string name="AgregarHuellaT">Cuenta con Huella:</string>
+    <string name="AgregarPantallaT">Tamaño pantalla:</string>
+    <string name="AgregarBiosT">Custom BIOS:</string>
+    <string name="AgregarSoT">Tipo SO:</string>
+    <string name="GuardarPnAT">Guardar</string>
+
+
+    <!--MENU ADD THINKSMART HUB-->
+    <string name="AgregarTituloCategoriaTXTTs">Nuevo PN</string>
+    <string name="AgregarPaisTs">Selecciona el País:</string>
+    <string name="AgregarSlocTs">Selecciona el SLOC:</string>
+    <string name="AgregarPnTs">Ingresa el PN:</string>
+    <string name="AgregarFamiliaTs">Descripción PN:</string>
+    <string name="AgregarCpuTs">Tipo de CPU:</string>
+    <string name="AgregarGpuTs">Tipo de GPU:</string>
+    <string name="AgregarHddTs">Tamaño HDD:</string>
+    <string name="AgregarSsdTs">Tamaño SSD:</string>
+    <string name="AgregarRamTs">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoTs">Tipo de teclado:</string>
+    <string name="AgregarHuellaTs">Cuenta con Huella:</string>
+    <string name="AgregarPantallaTs">Tamaño pantalla:</string>
+    <string name="AgregarBiosTs">Custom BIOS:</string>
+    <string name="AgregarSoTs">Tipo SO:</string>
+    <string name="GuardarPnATs">Guardar</string>
+
+
+    <!--MENU ADD MONITORES-->
+    <string name="AgregarTituloCategoriaTXTM">Nuevo PN</string>
+    <string name="AgregarPaisM">Selecciona el País:</string>
+    <string name="AgregarSlocM">Selecciona el SLOC:</string>
+    <string name="AgregarPnM">Ingresa el PN:</string>
+    <string name="AgregarFamiliaM">Descripción PN:</string>
+    <string name="AgregarCpuM">Tipo de CPU:</string>
+    <string name="AgregarGpuM">Tipo de GPU:</string>
+    <string name="AgregarHddM">Tamaño HDD:</string>
+    <string name="AgregarSsdM">Tamaño SSD:</string>
+    <string name="AgregarRamM">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoM">Tipo de teclado:</string>
+    <string name="AgregarHuellaM">Cuenta con Huella:</string>
+    <string name="AgregarPantallaM">Tamaño pantalla:</string>
+    <string name="AgregarBiosM">Custom BIOS:</string>
+    <string name="AgregarSoM">Tipo SO:</string>
+    <string name="GuardarPnAM">Guardar</string>
+
+    <!--MENU ADD ACCESORIOS-->
+    <string name="AgregarTituloCategoriaTXTACc">Nuevo PN</string>
+    <string name="AgregarPaisAcc">Selecciona el País:</string>
+    <string name="AgregarSlocACc">Selecciona el SLOC:</string>
+    <string name="AgregarPnACc">Ingresa el PN:</string>
+    <string name="AgregarFamiliaACc">Descripción PN:</string>
+    <string name="AgregarCpuACc">Tipo de CPU:</string>
+    <string name="AgregarGpuACc">Tipo de GPU:</string>
+    <string name="AgregarHddACc">Tamaño HDD:</string>
+    <string name="AgregarSsdACc">Tamaño SSD:</string>
+    <string name="AgregarRamACc">Tamaño M. RAM:</string>
+    <string name="AgregarTecladoACc">Tipo de teclado:</string>
+    <string name="AgregarHuellaACc">Cuenta con Huella:</string>
+    <string name="AgregarPantallaACc">Tamaño pantalla:</string>
+    <string name="AgregarBiosACc">Custom BIOS:</string>
+    <string name="AgregarSoACc">Tipo SO:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!--PERFIL ADMINISTRADOR-->
+
+    <string name="InformacionAdministradorTxt">Mi información</string>
+    <string name="UidAdministradorTxt">Mi ID</string>
+    <string name="UidAdministrador">--</string>
+    <string name="NombreAdministradorTxt">Nombre:</string>
+    <string name="NombreAdministrador">--</string>
+    <string name="ApellidoAdministradorTxt">Apellido:</string>
+    <string name="ApellidoAdministrador">--</string>
+    <string name="EmailAdministradorTxt">Email:</string>
+    <string name="EmailAdministrador">--</string>
+    <string name="PassdordAdministradorTxt">Password:</string>
+    <string name="PassdordAdministrador">--</string>
+    <string name="PasswordActualizarAdministrador">Actualizar password</string>
+    <string name="DatosActualizarAdministrador">Actualizar datos</string>
+
+
+    <!--CAMBIAR CONTRSEÑA-->
+    <string name="MisCredencialesTxt">Mis Credenciales</string>
+    <string name="PassActualTxt">Contraseña actual:</string>
+    <string name="PassActual">--</string>
+    <string name="ActualPassET">Contraseña actual</string>
+    <string name="NuevoPassET">Nueva contraseña</string>
+    <string name="CambiarPassBTN">Cambiar contraseña y cerrar sesión</string>
+    <string name="IrInicioBTN">Ir al Inicio</string>
+    <string name="Nota">Nota: Si cambia la contraseña, se cerrara sesión.</string>
+
+
+    <!--VISTA SESION CLIENTE-->
+    <string name="NombreCategoriaD">--</string>
+
+
+    <!--VISTA ACERCA DE-->
+    <string name="AcercaDeApp">LencareApp</string>
+    <string name="InfoDesarrollador">Desarollado por: Brian Alexis Vallejo</string>
+    <string name="InfoCorreo">Email: appsupport@vaxwe.com</string>
+    <string name="InfoVersion">Version: 1.1</string>
+    <string name="InfoWeb">Vaxwe.com</string>
+    <string name="InfoWeb2">Lenovo.com</string>
+
+    <!--VISTA INFORMACIÓN VIEW-->
+    <string name="InformacionG">Información General</string>
+    <string name="TXTInformacionTeclado">Se detalla la información técnica del PN y sus variaciones para una mejor identificación del PN.</string>
+    <!--<string name="TXTInformacionT">Teclado</string>
+    <string name="TXTInformacionT1">ES LAS – Teclado no retro-iluminado español LAS.</string>
+    <string name="TXTInformacionT2">EN USA – Teclado no retro-iluminado ingles USA.</string>
+    <string name="TXTInformacionT3">B ES LAS – Teclado retro-iluminado español LAS.</string>
+    <string name="TXTInformacionT4">B EN USA – Teclado retro-iluminado Ingles USA.</string>
+    <string name="TXTInformacionT5">B RGB ES LAS – Teclado retro-iluminado RGB español LAS.</string>
+    <string name="TXTInformacionT6">B RGB EN USA – Teclado retro-iluminado RGB ingles USA.</string>-->
+    <string name="TXTInformacionT7">Se detalla la información técnica del PN y sus variaciones.</string>
+
+
+    <!--VISTA SESION CLIENTE-->
+    <string name="NombreCabezeraA">--</string>
+    <string name="EmailCabezeraA">--</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main_admin">MainActivityAdmin</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>
